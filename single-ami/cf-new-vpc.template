@@ -13,18 +13,19 @@
     "Description": "SonicWall NSv CloudFormation Template to deploy NSv in a new VPC",
     "Mappings" : {
         "RegionMap" : {
-            "us-west-1" : {
-                "SonicWallNSvPAYGR1511" : "ami-0bc2c0cc1288d5bd4",
-                "SonicWallNSvPAYGR1700" : "ami-0ecf6e687d41a20b1",
-                "SonicWallNSvPAYGR1833" : "ami-0b10384875f0212de",
-                "SonicWallNSvPAYGR2052" : "ami-0e005b76d799d1b82",
-                "SonicWallNSvPAYGR2267" : "ami-0500cf379a8446a85",
-                "SonicWallNSvR1511" : "ami-0e0dddc9b899d2001",
-                "SonicWallNSvR1519" : "ami-0ba053f3ae8017624",
-                "SonicWallNSvR1700" : "ami-0fbeae142b8212e1e",
-                "SonicWallNSvR1833" : "ami-0586b7cfc6efa37f3",
-                "SonicWallNSvR2052" : "ami-04ff06c78538015c4",
-                "SonicWallNSvR2267" : "ami-07c8a636febffe772"
+            "us-east-1" : {
+                "SonicWallNSvPAYGR1511" : "ami-076ed83a6cb9f1983",
+                "SonicWallNSvPAYGR1700" : "ami-0073f48559e480e1e",
+                "SonicWallNSvPAYGR1833" : "ami-03b8e762fa5a399a2",
+                "SonicWallNSvPAYGR2052" : "ami-0cf950b6e70f645f1",
+                "SonicWallNSvPAYGR2267" : "ami-0c94d2d85cfb7687d",
+                "SonicWallNSvR1511" : "ami-02f5001b44f22efe6",
+                "SonicWallNSvR1519" : "ami-0902525105a9da073",
+                "SonicWallNSvR1700" : "ami-046c4da4f6246c49c",
+                "SonicWallNSvR1833" : "ami-0549f9eadb5c65891",
+                "SonicWallNSvR2052" : "ami-0c1a86992ff2d205e",
+                "SonicWallNSvR2267" : "ami-0585a5eef4427a3da",
+                "SonicWallNSvR9999" : "ami-9999"
             }
         }
     },
@@ -169,7 +170,7 @@
     "Parameters": {
         "AmiId": {
             "Description": "SonicWall NSv AMI ID",
-            "AllowedValues": ["SonicWallNSvPAYGR1511", "SonicWallNSvPAYGR1700", "SonicWallNSvPAYGR1833", "SonicWallNSvPAYGR2052", "SonicWallNSvPAYGR2267", "SonicWallNSvR1511", "SonicWallNSvR1519", "SonicWallNSvR1700", "SonicWallNSvR1833", "SonicWallNSvR2052", "SonicWallNSvR2267"],
+            "AllowedValues": ["SonicWallNSvPAYGR1511", "SonicWallNSvPAYGR1700", "SonicWallNSvPAYGR1833", "SonicWallNSvPAYGR2052", "SonicWallNSvPAYGR2267", "SonicWallNSvR1511", "SonicWallNSvR1519", "SonicWallNSvR1700", "SonicWallNSvR1833", "SonicWallNSvR2052", "SonicWallNSvR2267", "SonicWallNSvR9999"],
             "Type": "String"
         },
         "AvailabilityZone": {
