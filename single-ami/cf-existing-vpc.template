@@ -25,19 +25,6 @@
                 "SonicWallNSvR1833": "ami-0549f9eadb5c65891",
                 "SonicWallNSvR2052": "ami-0c1a86992ff2d205e",
                 "SonicWallNSvR2267": "ami-0585a5eef4427a3da"
-            },
-            "us-east-2": {
-                "SonicWallNSvPAYGR1511": "ami-0ad9ce90071363f6c",
-                "SonicWallNSvPAYGR1700": "ami-021e9eb83af65dc11",
-                "SonicWallNSvPAYGR1833": "ami-07d9460bd5dba90b3",
-                "SonicWallNSvPAYGR2052": "ami-07e9c81ae4e879f51",
-                "SonicWallNSvPAYGR2267": "ami-0e680a271d56e2a61",
-                "SonicWallNSvR1511": "ami-0d332c158fae72772",
-                "SonicWallNSvR1519": "ami-0d4406104295911a9",
-                "SonicWallNSvR1700": "ami-0eb7320c42dda60a9",
-                "SonicWallNSvR1833": "ami-09d9c5b3389f6851f",
-                "SonicWallNSvR2052": "ami-0cb7d643da7768097",
-                "SonicWallNSvR2267": "ami-0b991ce20009ad66f"
             }
         }
     },
